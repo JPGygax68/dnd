@@ -23,13 +23,13 @@ test('buildDatasheetMarkdown produces a concise DM-facing statblock', () => {
 
   const markdown = buildDatasheetMarkdown(monster);
 
-  assert.match(markdown, /### Test Creature/);
-  assert.match(markdown, /\*AC\*/);
-  assert.match(markdown, /\*HP\*/);
-  assert.match(markdown, /\*Speed\*/);
-  assert.match(markdown, /\*STR\*/);
+  assert.match(markdown, /<h3>Test Creature<\/h3>/);
+  assert.match(markdown, /<th>AC<\/th>/);
+  assert.match(markdown, /<th>HP<\/th>/);
+  assert.match(markdown, /<th>Speed<\/th>/);
+  assert.match(markdown, /<th>STR<\/th>/);
   assert.match(markdown, /10 \(\+0\)/);
-  assert.match(markdown, /#### Strike/);
+  assert.match(markdown, /<h4>Strike<\/h4>/);
   assert.match(markdown, /Melee Weapon Attack/);
 });
 
@@ -56,6 +56,7 @@ test('renderMonsterDatasheet uses a generic template when no creature-specific t
 
     const rendered = renderMonsterDatasheet(monster);
     assert.match(rendered, /### Generic Template Creature/);
+    assert.match(rendered, /\n/);
     assert.match(rendered, /1/);
   } finally {
     if (previousContent === null) {

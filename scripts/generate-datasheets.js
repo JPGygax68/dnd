@@ -21,13 +21,28 @@ function formatModifier(value) {
   return `${numericValue} (${modifier >= 0 ? '+' : ''}${modifier})`;
 }
 
+function modifier(value) {
+  if (value === undefined || value === null || value === '') {
+    return '-';
+  }
+
+  const numericValue = Number(value);
+  if (Number.isNaN(numericValue)) {
+    return String(value);
+  }
+
+  const modifier = Math.floor((numericValue - 10) / 2);
+  return `${modifier >= 0 ? '+' : ''}${modifier}`;
+}
+
 function buildTemplateContext(monster) {
   const stats = monster.stats || {};
 
   return {
     ...monster,
     stats,
-    modifier: (value) => formatModifier(value),
+    modifier: (value) => modifier(value),
+    statWithModifier: (value) => formatModifier(value),
   };
 }
 
@@ -42,7 +57,7 @@ function renderMonsterDatasheet(monster) {
 
   if (templatePath) {
     const templateSource = fs.readFileSync(templatePath, 'utf8');
-    const templateFn = pug.compile(templateSource, { filename: templatePath, pretty: false });
+    const templateFn = pug.compile(templateSource, { filename: templatePath, pretty: true });
     return templateFn(buildTemplateContext(monster)).trim();
   }
 
@@ -51,13 +66,27 @@ function renderMonsterDatasheet(monster) {
 
 function buildDatasheetMarkdown(monster) {
   const stats = monster.stats || {};
-  const actionsMarkdown = (monster.actions || [])
-    .map((action) => `#### ${action.name}\n${action.desc}`)
-    .join('\n\n');
+  const actionsHtml = (monster.actions || [])
+    .map((action) => `    <h4>${action.name}</h4>\n    <p>${action.desc}</p>`)
+    .join('\n');
 
-  return `### ${monster.name}\n\n${[monster.family, monster.cr, monster.tier]
-    .filter(Boolean)
-    .join(' • ')}\n\n| *AC* | *HP* | *Speed* |\n| --- | --- | --- |\n| ${monster.armorClass} | ${monster.hitPoints} | ${monster.speed} |\n\n| *STR* | *DEX* | *CON* | *INT* | *WIS* | *CHA* |\n| --- | --- | --- | --- | --- | --- |\n| ${formatModifier(stats.str)} | ${formatModifier(stats.dex)} | ${formatModifier(stats.con)} | ${formatModifier(stats.int)} | ${formatModifier(stats.wis)} | ${formatModifier(stats.cha)} |\n\n${monster.cr ? `*CR:* ${monster.cr}  •  *XP:* ${monster.xp ?? '-'}\n\n` : ''}${actionsMarkdown}`.trim();
+  return `<!DOCTYPE html>
+<html>
+  <body>
+    <h3>${monster.name}</h3>
+    <p>${[monster.family, monster.cr, monster.tier].filter(Boolean).join(' • ')}</p>
+    <table>
+      <tr><th>AC</th><th>HP</th><th>Speed</th></tr>
+      <tr><td>${monster.armorClass}</td><td>${monster.hitPoints}</td><td>${monster.speed}</td></tr>
+    </table>
+    <table>
+      <tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+      <tr><td>${formatModifier(stats.str)}</td><td>${formatModifier(stats.dex)}</td><td>${formatModifier(stats.con)}</td><td>${formatModifier(stats.int)}</td><td>${formatModifier(stats.wis)}</td><td>${formatModifier(stats.cha)}</td></tr>
+    </table>
+    <p>CR: ${monster.cr} • XP: ${monster.xp ?? '-'}</p>
+${actionsHtml}
+  </body>
+</html>`;
 }
 
 function generateDatasheets() {

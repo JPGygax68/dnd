@@ -3,7 +3,7 @@
   name: "Goblin Scout"
   cr: "1/4"
   xp: 50
-  family: "Goblinoids"
+  family: "Goblinoid"
   tier: "Minion"
   armorClass: 13
   hitPoints: 7
@@ -19,9 +19,9 @@
   name: "Goblin Captain"
   cr: "3"
   xp: 700
-  family: "Goblinoids"
+  family: "Goblinoid"
   tier: "Boss"
-  armorClass: 15
+  armorClass: "15 (Chain Shirt + small shield)"
   hitPoints: 36
   speed: "30 ft."
   stats: { str: 12, dex: 15, con: 14, int: 10, wis: 11, cha: 12 }
@@ -35,19 +35,22 @@
 
 - id: "creature-goblin-sergeant"
   name: "Goblin Sergeant"
+  subtitle: "Kleiner Humanoide, neutral böse"
   cr: "1/2"
   xp: 100
-  family: "Goblinoids"
+  family: "Goblinoid"
   tier: "Minion"
-  armorClass: 15
+  armorClass: "15 (Chain Shirt + small shield)"
   hitPoints: 18
   speed: "30 ft."
   stats: { str: 10, dex: 14, con: 12, int: 10, wis: 10, cha: 12 }
   actions:
-    - name: "Spear"
-      desc: "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage or 6 (1d8 + 2) piercing damage if used with two hands in melee."
+    - name: "Spear (used in Melee)"
+      desc: "+4 to hit, 5 ft.; one-handed 5 (1d6+2), both-handed 6 (1d8+2) piercing damage."
+    - name: "Spear (used as Ranged)"
+      desc: "+4 to hit, range 20/60 ft., one target; Hit: 5 (1d6+2) piercing damage."
     - name: "Shortbow"
-      desc: "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      desc: "Ranged: +4 to hit, range 30/120 ft., one target; hit: 5 (1d6+2) piercing damage."
     - name: "Command to Advance (1/Day)"
       desc: "The sergeant blows a horn. Up to three allied goblins within 30 ft. that can hear him may immediately use their reaction to move up to half their speed without provoking opportunity attacks."
   subordinates: []

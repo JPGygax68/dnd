@@ -1,17 +1,49 @@
-| ### #{name}
-| #{family} • #{cr} • #{tier}
-|
-| *AC* | *HP* | *Speed* |
-| --- | --- | --- |
-| #{armorClass} | #{hitPoints} | #{speed} |
-|
-| *STR* | *DEX* | *CON* | *INT* | *WIS* | *CHA* |
-| --- | --- | --- | --- | --- | --- |
-| #{modifier(stats.str)} | #{modifier(stats.dex)} | #{modifier(stats.con)} | #{modifier(stats.int)} | #{modifier(stats.wis)} | #{modifier(stats.cha)} |
-|
-| *CR:* #{cr}  •  *XP:* #{xp}
-|
-each action in actions
-  |
-  | #### #{action.name}
-  | #{action.desc}
+.stats 
+  h3 #{subtitle || name}
+  p #{family} • #{cr} (#{xp} XP) • #{tier}
+
+  table
+    tr
+      th Armor Class
+      td #{armorClass} 
+    tr
+      th Hit Points
+      td #{hitPoints}
+    tr
+      th Speed
+      td #{speed}
+
+  //- p 
+    em AC:&nbsp;
+    | #{armorClass} • 
+    em HP:&nbsp;
+    | #{hitPoints} • 
+    em Speed:&nbsp;
+    | #{speed}
+
+  div.attributes
+    table
+      tr
+        th STR
+        td #{stats.str}
+        td #{modifier(stats.str)}
+        th DEX
+        td #{stats.dex}
+        td #{modifier(stats.dex)}
+        th CON
+        td #{stats.con}
+        td #{modifier(stats.con)}
+      tr
+        th INT
+        td #{stats.int}
+        td #{modifier(stats.int)}
+        th WIS
+        td #{stats.wis}
+        td #{modifier(stats.wis)}
+        th CHA
+        td #{stats.cha}
+        td #{modifier(stats.cha)}
+
+  each action in actions
+    h4 #{action.name}
+    p #{action.desc}

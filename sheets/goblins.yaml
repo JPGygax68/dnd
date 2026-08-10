@@ -7,7 +7,7 @@ cards:
   - title: Goblin-Feldwebel
     text: Langer Speer, große Klappe
     image: creature-goblin-sergeant.png
-    image_size: "80%"
+    image_size: "100%"
     back_file: "creature-goblin-sergeant.md"
   - title: Goblin Späher
     text: Hinterhältig hinter dem Busch
@@ -17,10 +17,10 @@ cards:
   - title: Goblin-Feldwebel
     text: Langer Speer, große Klappe
     image: creature-goblin-sergeant.png
-    image_size: "80%"
+    image_size: "100%"
     back_file: "creature-goblin-sergeant.md"
   - title: Goblin-Feldwebel
     text: Langer Speer, große Klappe
     image: creature-goblin-sergeant.png
-    image_size: "80%"
+    image_size: "100%"
     back_file: "creature-goblin-sergeant.md"

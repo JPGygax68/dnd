@@ -1,19 +1,52 @@
-### Goblin Sergeant
-Goblinoids • 1/2 • Minion
-
-*AC* | *HP* | *Speed* |
---- | --- | --- |
-15 | 18 | 30 ft. |
-
-*STR* | *DEX* | *CON* | *INT* | *WIS* | *CHA* |
---- | --- | --- | --- | --- | --- |
-10 (+0) | 14 (+2) | 12 (+1) | 10 (+0) | 10 (+0) | 12 (+1) |
-
-*CR:* 1/2  •  *XP:* 100
-
-#### Spear
-Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage or 6 (1d8 + 2) piercing damage if used with two hands in melee.
-#### Shortbow
-Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
-#### Command to Advance (1/Day)
-The sergeant blows a horn. Up to three allied goblins within 30 ft. that can hear him may immediately use their reaction to move up to half their speed without provoking opportunity attacks.
+<div class="stats"> 
+  <h3>Kleiner Humanoide, neutral böse</h3>
+  <p>Goblinoid • 1/2 (100 XP) • Minion</p>
+  <table>
+    <tr>
+      <th>Armor Class</th>
+      <td>15 (Chain Shirt + small shield) </td>
+    </tr>
+    <tr>
+      <th>Hit Points</th>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>Speed</th>
+      <td>30 ft.</td>
+    </tr>
+  </table>
+  <div class="attributes">
+    <table>
+      <tr>
+        <th>STR</th>
+        <td>10</td>
+        <td>+0</td>
+        <th>DEX</th>
+        <td>14</td>
+        <td>+2</td>
+        <th>CON</th>
+        <td>12</td>
+        <td>+1</td>
+      </tr>
+      <tr>
+        <th>INT</th>
+        <td>10</td>
+        <td>+0</td>
+        <th>WIS</th>
+        <td>10</td>
+        <td>+0</td>
+        <th>CHA</th>
+        <td>12</td>
+        <td>+1</td>
+      </tr>
+    </table>
+  </div>
+  <h4>Spear (used in Melee)</h4>
+  <p>+4 to hit, 5 ft.; one-handed 5 (1d6+2), both-handed 6 (1d8+2) piercing damage.</p>
+  <h4>Spear (used in Ranged)</h4>
+  <p>+4 to hit, range 20/60 ft., one target; Hit: 5 (1d6+2) piercing damage.</p>
+  <h4>Shortbow</h4>
+  <p>Ranged: +4 to hit, range 30/120 ft., one target; hit: 5 (1d6+2) piercing damage.</p>
+  <h4>Command to Advance (1/Day)</h4>
+  <p>The sergeant blows a horn. Up to three allied goblins within 30 ft. that can hear him may immediately use their reaction to move up to half their speed without provoking opportunity attacks.</p>
+</div>

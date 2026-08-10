@@ -1,0 +1,54 @@
+# database/bestiary.yaml
+- id: "creature-goblin-scout"
+  name: "Goblin Scout"
+  cr: "1/4"
+  xp: 50
+  family: "Goblinoids"
+  tier: "Minion"
+  armorClass: 13
+  hitPoints: 7
+  speed: "30 ft."
+  stats: { str: 8, dex: 14, con: 10, int: 10, wis: 8, cha: 8 }
+  actions:
+    - name: "Scimitar"
+      desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+  subordinates: []
+  variants: ["creature-goblin-archer"]
+
+- id: "creature-goblin-captain"
+  name: "Goblin Captain"
+  cr: "3"
+  xp: 700
+  family: "Goblinoids"
+  tier: "Boss"
+  armorClass: 15
+  hitPoints: 36
+  speed: "30 ft."
+  stats: { str: 12, dex: 15, con: 14, int: 10, wis: 11, cha: 12 }
+  actions:
+    - name: "Multiattack"
+      desc: "The captain makes two attacks with his greatsword."
+    - name: "Greatsword"
+      desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
+  subordinates: ["creature-goblin-scout", "creature-goblin-archer"]
+  variants: ["creature-goblin-shaman"]
+
+- id: "creature-goblin-sergeant"
+  name: "Goblin Sergeant"
+  cr: "1/2"
+  xp: 100
+  family: "Goblinoids"
+  tier: "Minion"
+  armorClass: 15
+  hitPoints: 18
+  speed: "30 ft."
+  stats: { str: 10, dex: 14, con: 12, int: 10, wis: 10, cha: 12 }
+  actions:
+    - name: "Spear"
+      desc: "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage or 6 (1d8 + 2) piercing damage if used with two hands in melee."
+    - name: "Shortbow"
+      desc: "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    - name: "Command to Advance (1/Day)"
+      desc: "The sergeant blows a horn. Up to three allied goblins within 30 ft. that can hear him may immediately use their reaction to move up to half their speed without provoking opportunity attacks."
+  subordinates: []
+  variants: []

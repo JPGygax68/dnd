@@ -1,0 +1,16 @@
+| ### #{name}
+| #{family} • #{cr} • #{tier}
+|
+| *AC* | *HP* | *Speed* |
+| --- | --- | --- |
+| #{armorClass} | #{hitPoints} | #{speed} |
+|
+| *STR* | *DEX* | *CON* | *INT* | *WIS* | *CHA* |
+| --- | --- | --- | --- | --- | --- |
+| #{modifier(stats.str)} | #{modifier(stats.dex)} | #{modifier(stats.con)} | #{modifier(stats.int)} | #{modifier(stats.wis)} | #{modifier(stats.cha)} |
+|
+| *CR:* #{cr}  •  *XP:* #{xp}
+|
+each action in actions
+  | #### #{action.name}
+  | #{action.desc}

@@ -1,6 +1,6 @@
 <div class="stats"> 
   <h3>Goblin-Hauptmann</h3>
-  <p>Goblinoide • 3 (700 XP) • Boss</p>
+  <p>Goblinoide • 3 (700 EP) • Boss</p>
   <table>
     <tr>
       <th>Rüstungsklasse</th>
@@ -12,7 +12,7 @@
     </tr>
     <tr>
       <th>Geschwindigkeit</th>
-      <td>30 ft.</td>
+      <td>9 Meter</td>
     </tr>
   </table>
   <div class="attributes">
@@ -44,5 +44,5 @@
   <h4>Mehrfachangriff</h4>
   <p>Der Hauptmann führt zwei Angriffe mit seinem Großschwert aus.</p>
   <h4>Großschwert</h4>
-  <p>Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Treffer: 9 (2W6 + 2) Hiebschaden.</p>
+  <p>Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 1,5 Meter, ein Ziel. Treffer: 9 (2W6 + 2) Hiebschaden.</p>
 </div>

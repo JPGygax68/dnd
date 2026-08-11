@@ -1,6 +1,6 @@
 <div class="stats"> 
   <h3>Goblin-Späher</h3>
-  <p>Goblinoide • 1/4 (50 XP) • Scherge</p>
+  <p>Goblinoide • 1/4 (50 EP) • Scherge</p>
   <table>
     <tr>
       <th>Rüstungsklasse</th>
@@ -12,7 +12,7 @@
     </tr>
     <tr>
       <th>Geschwindigkeit</th>
-      <td>30 ft.</td>
+      <td>9 Meter</td>
     </tr>
   </table>
   <div class="attributes">
@@ -42,5 +42,5 @@
     </table>
   </div>
   <h4>Krummsäbel</h4>
-  <p>Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Treffer: 5 (1W6 + 2) Hiebschaden.</p>
+  <p>Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 1,5 Meter, ein Ziel. Treffer: 5 (1W6 + 2) Hiebschaden.</p>
 </div>

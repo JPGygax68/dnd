@@ -43,7 +43,7 @@
   </div>
   <h4>Spear (used in Melee)</h4>
   <p>+4 to hit, 5 ft.; one-handed 5 (1d6+2), both-handed 6 (1d8+2) piercing damage.</p>
-  <h4>Spear (used in Ranged)</h4>
+  <h4>Spear (used as Ranged)</h4>
   <p>+4 to hit, range 20/60 ft., one target; Hit: 5 (1d6+2) piercing damage.</p>
   <h4>Shortbow</h4>
   <p>Ranged: +4 to hit, range 30/120 ft., one target; hit: 5 (1d6+2) piercing damage.</p>

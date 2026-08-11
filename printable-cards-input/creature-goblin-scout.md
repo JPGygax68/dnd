@@ -1,30 +1,30 @@
 <div class="stats"> 
-  <h3>Goblin Scout</h3>
-  <p>Goblinoid • 1/4 (50 XP) • Minion</p>
+  <h3>Goblin-Späher</h3>
+  <p>Goblinoide • 1/4 (50 XP) • Scherge</p>
   <table>
     <tr>
-      <th>Armor Class</th>
+      <th>Rüstungsklasse</th>
       <td>13 </td>
     </tr>
     <tr>
-      <th>Hit Points</th>
+      <th>Trefferpunkte</th>
       <td>7</td>
     </tr>
     <tr>
-      <th>Speed</th>
+      <th>Geschwindigkeit</th>
       <td>30 ft.</td>
     </tr>
   </table>
   <div class="attributes">
     <table>
       <tr>
-        <th>STR</th>
+        <th>STÄ</th>
         <td>8</td>
         <td>-1</td>
-        <th>DEX</th>
+        <th>GEW</th>
         <td>14</td>
         <td>+2</td>
-        <th>CON</th>
+        <th>KON</th>
         <td>10</td>
         <td>+0</td>
       </tr>
@@ -32,7 +32,7 @@
         <th>INT</th>
         <td>10</td>
         <td>+0</td>
-        <th>WIS</th>
+        <th>WEI</th>
         <td>8</td>
         <td>-1</td>
         <th>CHA</th>
@@ -41,6 +41,6 @@
       </tr>
     </table>
   </div>
-  <h4>Scimitar</h4>
-  <p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</p>
+  <h4>Krummsäbel</h4>
+  <p>Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Treffer: 5 (1W6 + 2) Hiebschaden.</p>
 </div>

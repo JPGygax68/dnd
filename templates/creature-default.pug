@@ -1,43 +1,35 @@
 .stats 
   h3 #{subtitle || name}
-  p #{family} • #{cr} (#{xp} XP) • #{tier}
+  p #{family} • #{cr} (#{xp} EP) • #{tier}
 
   table
     tr
-      th Armor Class
+      th Rüstungsklasse
       td #{armorClass} 
     tr
-      th Hit Points
+      th Trefferpunkte
       td #{hitPoints}
     tr
-      th Speed
+      th Geschwindigkeit
       td #{speed}
-
-  //- p 
-    em AC:&nbsp;
-    | #{armorClass} • 
-    em HP:&nbsp;
-    | #{hitPoints} • 
-    em Speed:&nbsp;
-    | #{speed}
 
   div.attributes
     table
       tr
-        th STR
+        th STÄ
         td #{stats.str}
         td #{modifier(stats.str)}
-        th DEX
+        th GEW
         td #{stats.dex}
         td #{modifier(stats.dex)}
-        th CON
+        th KON
         td #{stats.con}
         td #{modifier(stats.con)}
       tr
         th INT
         td #{stats.int}
         td #{modifier(stats.int)}
-        th WIS
+        th WEI
         td #{stats.wis}
         td #{modifier(stats.wis)}
         th CHA

@@ -1,30 +1,30 @@
 <div class="stats"> 
-  <h3>Goblin Captain</h3>
-  <p>Goblinoid • 3 (700 XP) • Boss</p>
+  <h3>Goblin-Hauptmann</h3>
+  <p>Goblinoide • 3 (700 XP) • Boss</p>
   <table>
     <tr>
-      <th>Armor Class</th>
-      <td>15 (Chain Shirt + small shield) </td>
+      <th>Rüstungsklasse</th>
+      <td>15 (Kettenhemd + kleiner Schild) </td>
     </tr>
     <tr>
-      <th>Hit Points</th>
+      <th>Trefferpunkte</th>
       <td>36</td>
     </tr>
     <tr>
-      <th>Speed</th>
+      <th>Geschwindigkeit</th>
       <td>30 ft.</td>
     </tr>
   </table>
   <div class="attributes">
     <table>
       <tr>
-        <th>STR</th>
+        <th>STÄ</th>
         <td>12</td>
         <td>+1</td>
-        <th>DEX</th>
+        <th>GEW</th>
         <td>15</td>
         <td>+2</td>
-        <th>CON</th>
+        <th>KON</th>
         <td>14</td>
         <td>+2</td>
       </tr>
@@ -32,7 +32,7 @@
         <th>INT</th>
         <td>10</td>
         <td>+0</td>
-        <th>WIS</th>
+        <th>WEI</th>
         <td>11</td>
         <td>+0</td>
         <th>CHA</th>
@@ -41,8 +41,8 @@
       </tr>
     </table>
   </div>
-  <h4>Multiattack</h4>
-  <p>The captain makes two attacks with his greatsword.</p>
-  <h4>Greatsword</h4>
-  <p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.</p>
+  <h4>Mehrfachangriff</h4>
+  <p>Der Hauptmann führt zwei Angriffe mit seinem Großschwert aus.</p>
+  <h4>Großschwert</h4>
+  <p>Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Treffer: 9 (2W6 + 2) Hiebschaden.</p>
 </div>

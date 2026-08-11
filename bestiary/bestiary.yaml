@@ -1,57 +1,57 @@
 # database/bestiary.yaml
 - id: "creature-goblin-scout"
-  name: "Goblin Scout"
+  name: "Goblin-Späher"
   cr: "1/4"
   xp: 50
-  family: "Goblinoid"
-  tier: "Minion"
+  family: "Goblinoide"
+  tier: "Scherge"
   armorClass: 13
   hitPoints: 7
   speed: "30 ft."
   stats: { str: 8, dex: 14, con: 10, int: 10, wis: 8, cha: 8 }
   actions:
-    - name: "Scimitar"
-      desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+    - name: "Krummsäbel"
+      desc: "Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Treffer: 5 (1W6 + 2) Hiebschaden."
   subordinates: []
   variants: ["creature-goblin-archer"]
 
 - id: "creature-goblin-captain"
-  name: "Goblin Captain"
+  name: "Goblin-Hauptmann"
   cr: "3"
   xp: 700
-  family: "Goblinoid"
+  family: "Goblinoide"
   tier: "Boss"
-  armorClass: "15 (Chain Shirt + small shield)"
+  armorClass: "15 (Kettenhemd + kleiner Schild)"
   hitPoints: 36
   speed: "30 ft."
   stats: { str: 12, dex: 15, con: 14, int: 10, wis: 11, cha: 12 }
   actions:
-    - name: "Multiattack"
-      desc: "The captain makes two attacks with his greatsword."
-    - name: "Greatsword"
-      desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
+    - name: "Mehrfachangriff"
+      desc: "Der Hauptmann führt zwei Angriffe mit seinem Großschwert aus."
+    - name: "Großschwert"
+      desc: "Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Treffer: 9 (2W6 + 2) Hiebschaden."
   subordinates: ["creature-goblin-scout", "creature-goblin-archer"]
   variants: ["creature-goblin-shaman"]
 
 - id: "creature-goblin-sergeant"
-  name: "Goblin Sergeant"
-  subtitle: "Kleiner Humanoide, neutral böse"
+  name: "Goblin-Feldwebel"
+  subtitle: "Kleiner Humanoider (Goblinoide), neutral böse"
   cr: "1/2"
   xp: 100
-  family: "Goblinoid"
-  tier: "Minion"
-  armorClass: "15 (Chain Shirt + small shield)"
+  family: "Goblinoide"
+  tier: "Scherge"
+  armorClass: "15 (Kettenhemd + kleiner Schild)"
   hitPoints: 18
   speed: "30 ft."
   stats: { str: 10, dex: 14, con: 12, int: 10, wis: 10, cha: 12 }
   actions:
-    - name: "Spear (used in Melee)"
-      desc: "+4 to hit, 5 ft.; one-handed 5 (1d6+2), both-handed 6 (1d8+2) piercing damage."
-    - name: "Spear (used as Ranged)"
-      desc: "+4 to hit, range 20/60 ft., one target; Hit: 5 (1d6+2) piercing damage."
-    - name: "Shortbow"
-      desc: "Ranged: +4 to hit, range 30/120 ft., one target; hit: 5 (1d6+2) piercing damage."
-    - name: "Command to Advance (1/Day)"
-      desc: "The sergeant blows a horn. Up to three allied goblins within 30 ft. that can hear him may immediately use their reaction to move up to half their speed without provoking opportunity attacks."
+    - name: "Speer (Nahkampf)"
+      desc: "Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Einhändig: 5 (1W6 + 2) Stichschaden. Zweihandig: 6 (1W8 + 2) Stichschaden."
+    - name: "Speer (Fernkampf)"
+      desc: "Fernkampfangriff mit Waffe: +4 auf Treffer, Reichweite 20/60 ft., ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden."
+    - name: "Kurzbogen"
+      desc: "Fernkampfangriff mit Waffe: +4 auf Treffer, Reichweite 30/120 ft., ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden."
+    - name: "Befehl zum Vorrücken (1/Tag)"
+      desc: "Der Feldwebel bläst in ein Horn. Bis zu drei verbündete Goblins innerhalb von 30 ft., die ihn hören können, dürfen sofort ihre Reaktion einsetzen, um sich bis zur Hälfte ihrer Bewegungsrate zu bewegen, ohne Gelegenheitsangriffe zu provozieren."
   subordinates: []
   variants: []

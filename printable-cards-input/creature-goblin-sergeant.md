@@ -1,30 +1,30 @@
 <div class="stats"> 
-  <h3>Kleiner Humanoide, neutral böse</h3>
-  <p>Goblinoid • 1/2 (100 XP) • Minion</p>
+  <h3>Kleiner Humanoider (Goblinoide), neutral böse</h3>
+  <p>Goblinoide • 1/2 (100 XP) • Scherge</p>
   <table>
     <tr>
-      <th>Armor Class</th>
-      <td>15 (Chain Shirt + small shield) </td>
+      <th>Rüstungsklasse</th>
+      <td>15 (Kettenhemd + kleiner Schild) </td>
     </tr>
     <tr>
-      <th>Hit Points</th>
+      <th>Trefferpunkte</th>
       <td>18</td>
     </tr>
     <tr>
-      <th>Speed</th>
+      <th>Geschwindigkeit</th>
       <td>30 ft.</td>
     </tr>
   </table>
   <div class="attributes">
     <table>
       <tr>
-        <th>STR</th>
+        <th>STÄ</th>
         <td>10</td>
         <td>+0</td>
-        <th>DEX</th>
+        <th>GEW</th>
         <td>14</td>
         <td>+2</td>
-        <th>CON</th>
+        <th>KON</th>
         <td>12</td>
         <td>+1</td>
       </tr>
@@ -32,7 +32,7 @@
         <th>INT</th>
         <td>10</td>
         <td>+0</td>
-        <th>WIS</th>
+        <th>WEI</th>
         <td>10</td>
         <td>+0</td>
         <th>CHA</th>
@@ -41,12 +41,12 @@
       </tr>
     </table>
   </div>
-  <h4>Spear (used in Melee)</h4>
-  <p>+4 to hit, 5 ft.; one-handed 5 (1d6+2), both-handed 6 (1d8+2) piercing damage.</p>
-  <h4>Spear (used as Ranged)</h4>
-  <p>+4 to hit, range 20/60 ft., one target; Hit: 5 (1d6+2) piercing damage.</p>
-  <h4>Shortbow</h4>
-  <p>Ranged: +4 to hit, range 30/120 ft., one target; hit: 5 (1d6+2) piercing damage.</p>
-  <h4>Command to Advance (1/Day)</h4>
-  <p>The sergeant blows a horn. Up to three allied goblins within 30 ft. that can hear him may immediately use their reaction to move up to half their speed without provoking opportunity attacks.</p>
+  <h4>Speer (Nahkampf)</h4>
+  <p>Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Einhändig: 5 (1W6 + 2) Stichschaden. Zweihandig: 6 (1W8 + 2) Stichschaden.</p>
+  <h4>Speer (Fernkampf)</h4>
+  <p>Fernkampfangriff mit Waffe: +4 auf Treffer, Reichweite 20/60 ft., ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden.</p>
+  <h4>Kurzbogen</h4>
+  <p>Fernkampfangriff mit Waffe: +4 auf Treffer, Reichweite 30/120 ft., ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden.</p>
+  <h4>Befehl zum Vorrücken (1/Tag)</h4>
+  <p>Der Feldwebel bläst in ein Horn. Bis zu drei verbündete Goblins innerhalb von 30 ft., die ihn hören können, dürfen sofort ihre Reaktion einsetzen, um sich bis zur Hälfte ihrer Bewegungsrate zu bewegen, ohne Gelegenheitsangriffe zu provozieren.</p>
 </div>

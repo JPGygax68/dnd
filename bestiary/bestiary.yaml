@@ -7,11 +7,11 @@
   tier: "Scherge"
   armorClass: 13
   hitPoints: 7
-  speed: "30 ft."
+  speed: "9 Meter"
   stats: { str: 8, dex: 14, con: 10, int: 10, wis: 8, cha: 8 }
   actions:
     - name: "Krummsäbel"
-      desc: "Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Treffer: 5 (1W6 + 2) Hiebschaden."
+      desc: "Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 1,5 Meter, ein Ziel. Treffer: 5 (1W6 + 2) Hiebschaden."
   subordinates: []
   variants: ["creature-goblin-archer"]
 
@@ -23,13 +23,13 @@
   tier: "Boss"
   armorClass: "15 (Kettenhemd + kleiner Schild)"
   hitPoints: 36
-  speed: "30 ft."
+  speed: "9 Meter"
   stats: { str: 12, dex: 15, con: 14, int: 10, wis: 11, cha: 12 }
   actions:
     - name: "Mehrfachangriff"
       desc: "Der Hauptmann führt zwei Angriffe mit seinem Großschwert aus."
     - name: "Großschwert"
-      desc: "Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Treffer: 9 (2W6 + 2) Hiebschaden."
+      desc: "Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 1,5 Meter, ein Ziel. Treffer: 9 (2W6 + 2) Hiebschaden."
   subordinates: ["creature-goblin-scout", "creature-goblin-archer"]
   variants: ["creature-goblin-shaman"]
 
@@ -42,16 +42,16 @@
   tier: "Scherge"
   armorClass: "15 (Kettenhemd + kleiner Schild)"
   hitPoints: 18
-  speed: "30 ft."
+  speed: "9 Meter"
   stats: { str: 10, dex: 14, con: 12, int: 10, wis: 10, cha: 12 }
   actions:
     - name: "Speer (Nahkampf)"
-      desc: "Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 5 ft., ein Ziel. Einhändig: 5 (1W6 + 2) Stichschaden. Zweihandig: 6 (1W8 + 2) Stichschaden."
+      desc: "Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 1,5 Meter, ein Ziel. Einhändig: 5 (1W6 + 2) Stichschaden. Zweihandig: 6 (1W8 + 2) Stichschaden."
     - name: "Speer (Fernkampf)"
-      desc: "Fernkampfangriff mit Waffe: +4 auf Treffer, Reichweite 20/60 ft., ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden."
+      desc: "Fernkampfangriff mit Waffe: +4 auf Treffer, Reichweite 6/18 Meter, ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden."
     - name: "Kurzbogen"
-      desc: "Fernkampfangriff mit Waffe: +4 auf Treffer, Reichweite 30/120 ft., ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden."
+      desc: "Fernkampfangriff mit Waffe: +4 auf Treffer, Reichweite 9/36 Meter, ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden."
     - name: "Befehl zum Vorrücken (1/Tag)"
-      desc: "Der Feldwebel bläst in ein Horn. Bis zu drei verbündete Goblins innerhalb von 30 ft., die ihn hören können, dürfen sofort ihre Reaktion einsetzen, um sich bis zur Hälfte ihrer Bewegungsrate zu bewegen, ohne Gelegenheitsangriffe zu provozieren."
+      desc: "Der Feldwebel bläst in ein Horn. Bis zu drei verbündete Goblins innerhalb von 9 Metern, die ihn hören können, dürfen sofort ihre Reaktion einsetzen, um sich bis zur Hälfte ihrer Bewegungsrate zu bewegen, ohne Gelegenheitsangriffe zu provozieren."
   subordinates: []
   variants: []

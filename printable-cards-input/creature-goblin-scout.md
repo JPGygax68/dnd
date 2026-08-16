@@ -4,7 +4,8 @@
   <table>
     <tr>
       <th>Rüstungsklasse</th>
-      <td>13 </td>
+      <td>13
+      </td>
     </tr>
     <tr>
       <th>Trefferpunkte</th>

@@ -4,7 +4,8 @@
   <table>
     <tr>
       <th>Rüstungsklasse</th>
-      <td>15 (Kettenhemd + kleiner Schild) </td>
+      <td>15&nbsp;(Kettenhemd + kleiner Schild)
+      </td>
     </tr>
     <tr>
       <th>Trefferpunkte</th>

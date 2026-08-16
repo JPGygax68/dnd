@@ -77,7 +77,8 @@ function buildDatasheetMarkdown(monster) {
     <p>${[monster.family, monster.cr, monster.tier].filter(Boolean).join(' • ')}</p>
     <table>
       <tr><th>AC</th><th>HP</th><th>Speed</th></tr>
-      <tr><td>${monster.armorClass}</td><td>${monster.hitPoints}</td><td>${monster.speed}</td></tr>
+      <tr><td>${monster.armorClass} ${monster.armorDetails}</td>
+        <td>${monster.hitPoints}</td><td>${monster.speed}</td></tr>
     </table>
     <table>
       <tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>

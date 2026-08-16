@@ -21,7 +21,8 @@
   xp: 700
   family: "Goblinoide"
   tier: "Boss"
-  armorClass: "15 (Kettenhemd + kleiner Schild)"
+  armorClass: 15
+  armorDetails: "Kettenhemd + kleiner Schild"
   hitPoints: 36
   speed: "9 Meter"
   stats: { str: 12, dex: 15, con: 14, int: 10, wis: 11, cha: 12 }
@@ -40,7 +41,8 @@
   xp: 100
   family: "Goblinoide"
   tier: "Scherge"
-  armorClass: "15 (Kettenhemd + kleiner Schild)"
+  armorClass: 15
+  armorDetails: "Kettenhemd + kleiner Schild"
   hitPoints: 18
   speed: "9 Meter"
   stats: { str: 10, dex: 14, con: 12, int: 10, wis: 10, cha: 12 }

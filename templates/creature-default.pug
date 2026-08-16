@@ -5,7 +5,9 @@
   table
     tr
       th Rüstungsklasse
-      td #{armorClass} 
+      td #{armorClass}
+        if armorDetails
+          | &nbsp;(#{armorDetails})
     tr
       th Trefferpunkte
       td #{hitPoints}

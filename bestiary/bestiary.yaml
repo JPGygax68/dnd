@@ -60,7 +60,7 @@
   subordinates: []
   variants: []
 
-- id: "creature-bandit-leader"
+- id: "highwayman-leader"
   name: "Wegelagerer-Anführer"
   alignment: "neutral böse"
   cr: "1/2"
@@ -80,16 +80,16 @@
     - name: "Taktischer Zuruf (1/Tag)"
       desc: "Der Anführer ruft einem Verbündeten innerhalb von 9 Metern einen Befehl zu. Dieser Verbündete darf sofort seine Reaktion einsetzen, um einen einzelnen Angriff auszuführen."
   subordinates:
-    - "creature-bandit-thug"
+    - "highwayman-bruiser"
   variants: []
 
-- id: "creature-bandit-thug"
+- id: "highwayman-bruiser"
   name: "Wegelagerer-Schläger"
   alignment: "chaotisch neutral"
   cr: "1/4"
   xp: 50
+  race: "Mensch"
   family: "Humanoide"
-  tier: "Scherge"
   armorClass: 12
   armorDetails: "Lederweste"
   hitPoints: 11

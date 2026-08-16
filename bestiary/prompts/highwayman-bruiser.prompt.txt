@@ -1,0 +1,5 @@
+Character design of a fantasy human bandit (highwayman).
+Clear clean lines, European comic book style, ligne claire, ink outline, flat colors with limited muted palette and minimal cell shading, Hergé and Moebius style influence. 
+The highwayman is the thug of a duo (leader not shown here), wearing a leather jacket, armed with a wooden club.
+He is short and stocky, wearing a grim but somewhat vacant expression on his chubby face.
+Background shows a bit of road and some trees, simplified and with weaker color tones. No background color (alpha transparent). Very simplified gradients, no messy crosshatching.

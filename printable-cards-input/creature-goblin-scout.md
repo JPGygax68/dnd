@@ -1,6 +1,6 @@
 <div class="stats"> 
   <h3>Goblin-Späher</h3>
-  <p>Goblinoide • 1/4 (50 EP) • Scherge</p>
+  <p>Goblinoide • 1/4 (50 EP) • </p>
   <table>
     <tr>
       <th>Rüstungsklasse</th>

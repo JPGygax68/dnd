@@ -1,6 +1,6 @@
 <div class="stats"> 
   <h3>Goblin-Hauptmann</h3>
-  <p>Goblinoide • 3 (700 EP) • Boss</p>
+  <p>Goblinoide • 3 (700 EP) • </p>
   <table>
     <tr>
       <th>Rüstungsklasse</th>

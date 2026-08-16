@@ -1,6 +1,6 @@
 <div class="stats"> 
-  <h3>Kleiner Humanoider (Goblinoide), neutral böse</h3>
-  <p>Goblinoide • 1/2 (100 EP) • Scherge</p>
+  <h3>Goblin-Feldwebel</h3>
+  <p>Goblinoide • 1/2 (100 EP) • </p>
   <table>
     <tr>
       <th>Rüstungsklasse</th>

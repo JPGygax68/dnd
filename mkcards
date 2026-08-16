@@ -1,3 +1,3 @@
 #!/bin/bash
 node scripts/generate-datasheets.js
-mkplayingcards --sheet sheets/goblins.yaml --backs-dir printable-cards-input --images-dir bestiary/images --out-dir printable-cards-output/ --template cards_2x2_a4
+mkplayingcards --sheet sheets/sheet1.yaml --backs-dir printable-cards-input --images-dir bestiary/images --out-dir printable-cards-output/ --template cards_2x2_a4

@@ -1,10 +1,11 @@
 # database/bestiary.yaml
 - id: "creature-goblin-scout"
   name: "Goblin-Späher"
+  alignment: "neutral böse"
+  race: "Goblin"
+  family: "Goblinoide"
   cr: "1/4"
   xp: 50
-  family: "Goblinoide"
-  tier: "Scherge"
   armorClass: 13
   hitPoints: 7
   speed: "9 Meter"
@@ -17,10 +18,11 @@
 
 - id: "creature-goblin-captain"
   name: "Goblin-Hauptmann"
+  alignment: "neutral böse"
   cr: "3"
   xp: 700
+  race: "Goblin"
   family: "Goblinoide"
-  tier: "Boss"
   armorClass: 15
   armorDetails: "Kettenhemd + kleiner Schild"
   hitPoints: 36
@@ -36,11 +38,11 @@
 
 - id: "creature-goblin-sergeant"
   name: "Goblin-Feldwebel"
-  subtitle: "Kleiner Humanoider (Goblinoide), neutral böse"
+  alignment: "neutral böse"
   cr: "1/2"
   xp: 100
+  race: "Goblin"
   family: "Goblinoide"
-  tier: "Scherge"
   armorClass: 15
   armorDetails: "Kettenhemd + kleiner Schild"
   hitPoints: 18
@@ -55,5 +57,48 @@
       desc: "Fernkampfangriff mit Waffe: +4 auf Treffer, Reichweite 9/36 Meter, ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden."
     - name: "Befehl zum Vorrücken (1/Tag)"
       desc: "Der Feldwebel bläst in ein Horn. Bis zu drei verbündete Goblins innerhalb von 9 Metern, die ihn hören können, dürfen sofort ihre Reaktion einsetzen, um sich bis zur Hälfte ihrer Bewegungsrate zu bewegen, ohne Gelegenheitsangriffe zu provozieren."
+  subordinates: []
+  variants: []
+
+- id: "creature-bandit-leader"
+  name: "Wegelagerer-Anführer"
+  alignment: "neutral böse"
+  cr: "1/2"
+  xp: 100
+  race: "Mensch"
+  family: "Humanoide"
+  armorClass: 14
+  armorDetails: "Lederharnisch + kleiner Schild"
+  hitPoints: 20
+  speed: "9 Meter"
+  stats: { str: 12, dex: 14, con: 12, int: 10, wis: 10, cha: 11 }
+  actions:
+    - name: "Kurzschwert"
+      desc: "Nahkampfangriff mit Waffe: +4 auf Treffer, Reichweite 1,5 Meter, ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden."
+    - name: "Kurzbogen"
+      desc: "Fernkampfangriff mit Waffe: +4 auf Treffer, Reichweite 9/36 Meter, ein Ziel. Treffer: 5 (1W6 + 2) Stichschaden."
+    - name: "Taktischer Zuruf (1/Tag)"
+      desc: "Der Anführer ruft einem Verbündeten innerhalb von 9 Metern einen Befehl zu. Dieser Verbündete darf sofort seine Reaktion einsetzen, um einen einzelnen Angriff auszuführen."
+  subordinates:
+    - "creature-bandit-thug"
+  variants: []
+
+- id: "creature-bandit-thug"
+  name: "Wegelagerer-Schläger"
+  alignment: "chaotisch neutral"
+  cr: "1/4"
+  xp: 50
+  family: "Humanoide"
+  tier: "Scherge"
+  armorClass: 12
+  armorDetails: "Lederweste"
+  hitPoints: 11
+  speed: "9 Meter"
+  stats: { str: 12, dex: 12, con: 11, int: 9, wis: 10, cha: 10 }
+  actions:
+    - name: "Knüppel"
+      desc: "Nahkampfangriff mit Waffe: +3 auf Treffer, Reichweite 1,5 Meter, ein Ziel. Treffer: 4 (1W6 + 1) Wuchtschaden."
+    - name: "Drohgebärde"
+      desc: "Der Schläger brüllt und schlägt mit dem Knüppel gegen einen Baum oder Schild. Eine Kreatur innerhalb von 3 Metern muss einen CHA-Save (SG 10) bestehen oder ist bis zum Ende ihres nächsten Zuges verängstigt."
   subordinates: []
   variants: []

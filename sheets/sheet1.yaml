@@ -15,7 +15,7 @@ cards:
     image_size: "85%"
     back_file: "highwayman-leader.md"
   - title: Wegelagerer-Schläger
-    text: "Tu was der Boss sagt, sonst..."
+    text: "\"Tu was der Boss sagt, sonst...\""
     image: highwayman-bruiser.png
     image_size: "85%"
     back_file: "highwayman-bruiser.md"
